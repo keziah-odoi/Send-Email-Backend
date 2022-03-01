@@ -14,6 +14,7 @@ import java.io.IOException;
 
 
 public class SendEmailService {
+    //Sendgrid API Key
     @Autowired
     private SendGrid sendGrid = new SendGrid(System.getenv("SENDGRID_API_KEY"));
 
